@@ -41,7 +41,7 @@ Moveable GetTemp()
 	return tmp;
 }
 
-int main()
+int move_constructor()
 {
 	Moveable a(GetTemp());
 	cout << hex << "Huge Mem from " << __func__ << "@" << a.h.c << endl;

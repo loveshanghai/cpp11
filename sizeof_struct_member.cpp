@@ -8,7 +8,7 @@ struct pepole
 	static pepole* all;
 };
 
-int _main()
+int size_struct_member()
 {
 	pepole p;
 
