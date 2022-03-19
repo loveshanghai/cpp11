@@ -143,11 +143,17 @@
     <ClCompile Include="convert_explicit.cpp" />
     <ClCompile Include="convert_implicit.cpp" />
     <ClCompile Include="initializer_list.cpp" />
+    <ClCompile Include="ispod.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="move_constructor.cpp" />
     <ClCompile Include="no_except.cpp" />
     <ClCompile Include="perfect_forward.cpp" />
     <ClCompile Include="sizeof_struct_member.cpp" />
+    <ClCompile Include="standard_layout.cpp" />
+    <ClCompile Include="tivial_pod.cpp" />
+    <ClCompile Include="typeid_hash_code.cpp" />
+    <ClCompile Include="union_like_class.cpp" />
+    <ClCompile Include="using_typedef.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
