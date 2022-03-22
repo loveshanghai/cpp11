@@ -149,6 +149,7 @@
     <ClCompile Include="for_foreach.cpp" />
     <ClCompile Include="initializer_list.cpp" />
     <ClCompile Include="ispod.cpp" />
+    <ClCompile Include="lambda_expr.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="memory_model.cpp" />
     <ClCompile Include="move_constructor.cpp" />

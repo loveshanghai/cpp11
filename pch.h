@@ -26,10 +26,12 @@ int memory_model();
 int exit_do();
 int nullptr_null0();
 int default_control();
+int lambda_expr();
 //EntryFunc = perfect_forward;
 
 /* array with three functions */
 int (*EntryFunc[])() = {
+	lambda_expr,
 	default_control,
 	nullptr_null0,
 	exit_do,

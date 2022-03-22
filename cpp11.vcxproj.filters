@@ -93,6 +93,9 @@
     <ClCompile Include="default_control.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="lambda_expr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">
