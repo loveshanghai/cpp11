@@ -23,10 +23,12 @@ int var_template();
 int var_func();
 int atomic_op();
 int memory_model();
+int exit_do();
 //EntryFunc = perfect_forward;
 
 /* array with three functions */
 int (*EntryFunc[])() = {
+	exit_do,
 	memory_model,
 	atomic_op,
 	var_func,
