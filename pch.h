@@ -27,10 +27,14 @@ int exit_do();
 int nullptr_null0();
 int default_control();
 int lambda_expr();
+int align_support();
+int unicode_example();
 //EntryFunc = perfect_forward;
 
 /* array with three functions */
 int (*EntryFunc[])() = {
+	unicode_example,
+	align_support,
 	lambda_expr,
 	default_control,
 	nullptr_null0,

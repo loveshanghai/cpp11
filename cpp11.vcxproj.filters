@@ -96,6 +96,12 @@
     <ClCompile Include="lambda_expr.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="align_support.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unicode_example.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">

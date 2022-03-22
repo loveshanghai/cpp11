@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="align_support.cpp" />
     <ClCompile Include="atomic_op.cpp" />
     <ClCompile Include="class_enum.cpp" />
     <ClCompile Include="convert_explicit.cpp" />
@@ -162,6 +163,7 @@
     <ClCompile Include="tivial_pod.cpp" />
     <ClCompile Include="trait_return_type.cpp" />
     <ClCompile Include="typeid_hash_code.cpp" />
+    <ClCompile Include="unicode_example.cpp" />
     <ClCompile Include="union_like_class.cpp" />
     <ClCompile Include="using_typedef.cpp" />
     <ClCompile Include="var_func.cpp" />
