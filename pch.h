@@ -14,11 +14,28 @@ int ispod();
 int union_like_class();
 int using_typedef();
 int typeid_hash_code();
-
+int trait_return_type();
+int for_foreach();
+int class_enum();
+int smart_pointer();
+int va_sum();
+int var_template();
+int var_func();
+int atomic_op();
+int memory_model();
 //EntryFunc = perfect_forward;
 
 /* array with three functions */
 int (*EntryFunc[])() = {
+	memory_model,
+	atomic_op,
+	var_func,
+	var_template,
+	va_sum,
+	smart_pointer,
+	class_enum,
+	for_foreach,
+	trait_return_type,
 	typeid_hash_code,
 	using_typedef,
 	union_like_class,

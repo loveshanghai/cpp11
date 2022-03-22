@@ -140,20 +140,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="atomic_op.cpp" />
+    <ClCompile Include="class_enum.cpp" />
     <ClCompile Include="convert_explicit.cpp" />
     <ClCompile Include="convert_implicit.cpp" />
+    <ClCompile Include="for_foreach.cpp" />
     <ClCompile Include="initializer_list.cpp" />
     <ClCompile Include="ispod.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="memory_model.cpp" />
     <ClCompile Include="move_constructor.cpp" />
     <ClCompile Include="no_except.cpp" />
     <ClCompile Include="perfect_forward.cpp" />
     <ClCompile Include="sizeof_struct_member.cpp" />
+    <ClCompile Include="smart_pointer.cpp" />
     <ClCompile Include="standard_layout.cpp" />
     <ClCompile Include="tivial_pod.cpp" />
+    <ClCompile Include="trait_return_type.cpp" />
     <ClCompile Include="typeid_hash_code.cpp" />
     <ClCompile Include="union_like_class.cpp" />
     <ClCompile Include="using_typedef.cpp" />
+    <ClCompile Include="var_func.cpp" />
+    <ClCompile Include="var_template.cpp" />
+    <ClCompile Include="va_sum.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
