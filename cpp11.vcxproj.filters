@@ -87,6 +87,12 @@
     <ClCompile Include="exit_do.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="nullptr_null0.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="default_control.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h">

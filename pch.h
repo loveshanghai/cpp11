@@ -24,10 +24,14 @@ int var_func();
 int atomic_op();
 int memory_model();
 int exit_do();
+int nullptr_null0();
+int default_control();
 //EntryFunc = perfect_forward;
 
 /* array with three functions */
 int (*EntryFunc[])() = {
+	default_control,
+	nullptr_null0,
 	exit_do,
 	memory_model,
 	atomic_op,
